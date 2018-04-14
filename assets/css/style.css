@@ -1,0 +1,120 @@
+body {
+	background: url('../images/background2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;	
+}
+
+.jumbotron {
+	opacity: 0.7;
+	background-color: black;
+}
+
+.jumbotron h1 {
+	font-size: 56px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotron h2 {
+	font-size: 28px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#characters-available {
+	text-align: center;
+}
+
+.character-image {
+	display: inline-block;
+  	height: 165px;
+	padding: 2px 20px 0px 20px;
+	border-radius: 15px 50px 30px;
+	margin: 0px 2px 0px 2px;
+	background-color: rgba(0, 0, 0, 0.37);
+}
+
+.character-image p {
+	text-align: center;
+	margin: 0px 2px 0px 2px;
+	color: white;
+	padding: 2px;
+	opacity: 0.7;
+}
+
+#chosen-character {
+	height: 220px;
+}
+
+#chosen-character h2 {
+	font-size: 28px;
+	color: white;
+	opacity: 0.7;
+	font-weight: bold;
+}
+
+.chosen-character {
+	background-color: #2ee217c7;
+}
+
+#enemies-available h2 {
+	font-size: 28px;
+	color: white;
+	opacity: 0.7;
+	font-weight: bold;
+}
+
+.enemy-character {
+	background-color: #ff001e71;
+	margin: 0px 2px 0px 2px;
+	border-radius: 15px 50px 30px 5px;
+}
+
+#fight-section h2 {
+	font-size: 20px;
+	color: #f0485b;
+	opacity: 0.9;
+	font-weight: bold;
+}
+
+#defender-section {
+	height: 230px;
+}
+
+#defender-section h2 {
+	font-size: 30px;
+    color: #f0485b;
+}
+
+.defender-character {
+	background-color: rgba(255, 0, 0, 0.836);
+	border-radius: 50px;
+}
+
+#game-message {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	opacity: 0.7;
+}
+img {
+	border-radius: 40%;
+	
+}
+button {
+	height: 50px;
+	width: 100px;
+	background-color: red;
+	border-radius: 10%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
